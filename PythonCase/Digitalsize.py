@@ -1,7 +1,7 @@
 #!/user/bin/python
 #-*- coding:UTF-8 -*-
 
-
+##依次获取list里面的值
 
 namelist=[1,23,23425,23245,['stirng','helo','xx',[1,2,3]]]
 for each_values in namelist:
