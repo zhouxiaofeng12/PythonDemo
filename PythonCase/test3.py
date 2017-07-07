@@ -56,24 +56,24 @@
 
 
 
+
+
+#一家商场在降价促销。如果购买金额50-100元(包含50元和100元)之间，会给10%的折扣，如果
+# 购买金额大于100元会给20%折扣。编写一程序，询问购买价格，再显示出折扣(10%或20%)和
+#最终价格。
+price=raw_input("please input a number:")
+if (price>50 and price<100):
+    print price*0.01
+elif (price<100):
+    j=price * 0.02
+    print j
+
+
+# #求1 + 2 + 3 +....+100之和
+# num=0
+# for i  in  range(1,100):
+#     num+=i
+# print num
 #
-#
-# #一家商场在降价促销。如果购买金额50-100元(包含50元和100元)之间，会给10%的折扣，如果
-# # 购买金额大于100元会给20%折扣。编写一程序，询问购买价格，再显示出折扣(10%或20%)和
-# #最终价格。
-# price=raw_input("please input a number:")
-# if (price>50 and price<100):
-#     print price*0.01
-# elif (price<100):
-#     j=price * 0.02
-#     print j
-
-
-#求1 + 2 + 3 +....+100
-
-for i  in range(1,50):
-    for x in range(51,101):
-        y=x+i
-print y
 
 
