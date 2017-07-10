@@ -11,3 +11,6 @@ for i in os.listdir('/Users/wangshijie/Documents'):
         print '其他'
 
 print a,b
+
+
+
